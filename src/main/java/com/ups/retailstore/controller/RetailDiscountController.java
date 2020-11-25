@@ -20,7 +20,7 @@ import javax.validation.constraints.Min;
 @RestController
 @RequestMapping("/bill")
 @Validated
-public class RetailStoreController {
+public class RetailDiscountController {
 
     @Autowired
     RetailDiscountServiceImpl retailDiscountService;
